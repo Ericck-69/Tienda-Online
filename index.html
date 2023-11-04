@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Videojuegos</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#juegos">Juegos</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>¡Bienvenido a nuestra tienda de videojuegos!</h2>
+            <p>Encuentra los últimos lanzamientos y ofertas especiales.</p>
+        </section>
+
+        <section id="juegos">
+            <h2>Nuestros Juegos</h2>
+            <div class="juego">
+                <img src="img/images.jpeg" alt="Nombre del Juego 1">
+                <h3>Super Mario</h3>
+                <p>Precio: $49.99</p>
+                <button onclick="agregarAlCarrito('Nombre del Juego 1', 49.99)">Agregar al Carrito</button>
+            </div>
+            <section id="juegos">
+                <h2>Nuestros Juegos</h2>
+                <div class="juego">
+                    <img src="img/images 1.jpeg" alt="Nombre del Juego 1">
+                    <h3>Mario 2030</h3>
+                    <p>Precio: $60.00</p>
+                    <button onclick="agregarAlCarrito('Nombre del Juego 1', 60.00)">Agregar al Carrito</button>
+                </div>
+        </section>
+
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito">
+                
+            </ul>
+            <p>Total: <span id="total">$0.00</span></p>
+            <button onclick="realizarCompra()">Realizar Compra</button>
+        </section>
+    </main>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video de Mario Bros</title>
+</head>
+<body>
+    <h1>Video de Mario Bros</h1>
+
+    <video width="640" height="360" controls>
+        <source src="c:\Users\MINEDUCYT\Downloads\Super Mario Bros. La Película - Tráiler Oficial (Universal Pictures) HD (1).mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+</body>
+</html>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
